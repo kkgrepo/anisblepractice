@@ -5,4 +5,4 @@
   tasks:
    - name: print data
      debug:
-       msg: "The result is {{ COURSE }}"
+       msg: "Learning {{ COURSE }} ... " 
