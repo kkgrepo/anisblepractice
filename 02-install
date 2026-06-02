@@ -1,0 +1,7 @@
+- name: demo on nginx
+  hosts: frontend
+  tasks:
+  - name: install nginx
+    package:
+      - name: nginx
+        state: present
