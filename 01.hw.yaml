@@ -1,0 +1,6 @@
+- name: hellowd demo
+  hosts: localhost
+  tasks:
+    name: ansible demo
+    debug:
+      msg: "first ansible hello world"
