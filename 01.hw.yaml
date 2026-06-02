@@ -1,6 +1,6 @@
-- name: hellowd demo
-  hosts: local
+- name: demo on debug
+  hosts: frontend
   tasks:
-    name: ansible demo
+  - name: hello world
     debug:
-      msg: "first ansible hello world"
+      msg: "Hello Ansible .....first example!" 
