@@ -1,0 +1,8 @@
+- name: demo on nginx
+  hosts: frontend
+  vars:
+   COURSE: "Ansible"
+  tasks:
+   - name: print data
+     debug:
+       msg: "The result is {{ COURSE }}"
