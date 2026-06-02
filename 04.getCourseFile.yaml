@@ -1,9 +1,12 @@
+---
 - name: Demo on file
   hosts: local
   connection: local
+
   vars_files:
-   - course.yaml
-   tasks:
-     - name: print data
-       debug:
-         msg: "dETAILS ARE {{ COURSE }} {{ TRAINER }} {{ DURATION }}"
+    - course.yaml
+
+  tasks:
+    - name: Print data
+      debug:
+        msg: "DETAILS ARE {{ COURSE }} {{ TRAINER }} {{ DURATION }}"
