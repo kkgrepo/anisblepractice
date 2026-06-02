@@ -5,5 +5,5 @@
    - course.yaml
    tasks:
      - name: print data
-      debug:
-       msg: "dETAILS ARE {{ COURSE }} {{ TRAINER }} {{ DURATION }}"
+       debug:
+         msg: "dETAILS ARE {{ COURSE }} {{ TRAINER }} {{ DURATION }}"
